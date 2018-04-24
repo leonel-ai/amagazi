@@ -32,5 +32,14 @@ module.exports = {
       }
     )
     return config
+  },
+  exportPathMap: function(defaultPathMap) {
+    return {
+      '/': { page: '/' },
+      '/services': { page: '/services' },
+      '/about': { page: '/about' },
+      '/work': { page: '/work' },
+      '/privacy': { page: '/privacy' },
+    }
   }
 }
