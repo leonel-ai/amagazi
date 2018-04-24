@@ -5,7 +5,7 @@ import Logos from '../components/logos';
 const Brands = () => {
   return (
 
-<div className="brand-group">
+<div className="brand-group" itemScope itemType="http://schema.org/ItemList">
   <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
     <div className="container text-md-left">

@@ -2,7 +2,7 @@ import stylesheet from 'styles/index.scss';
 
 const Accordion = () => {
   return (
-    <div className="accordion accordion-7 col-xs-12 col-md-6" id="accordionEx2" role="tablist" aria-multiselectable="true">
+    <div className="accordion accordion-7 col-xs-12 col-md-6" id="accordionEx2" role="tablist" aria-multiselectable="true" itemScope itemType="http://schema.org/ItemList">
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
     <div className="card">
@@ -14,7 +14,7 @@ const Accordion = () => {
             </a>
         </div>
 
-        <div id="collapse10" className="collapse" role="tabpanel" aria-labelledby="heading10" data-parent="#accordionEx2">
+        <div id="collapse10" className="collapse" role="tabpanel" aria-labelledby="heading10" data-parent="#accordionEx2" itemScope itemType="http://schema.org/Organization">
             <div className="card-body white-text">
               <h3>snacktime bonding</h3>
               <h4>opportunity</h4>
@@ -65,7 +65,7 @@ const Accordion = () => {
             </a>
         </div>
 
-        <div id="collapse11" className="collapse" role="tabpanel" aria-labelledby="heading11" data-parent="#accordionEx2">
+        <div id="collapse11" className="collapse" role="tabpanel" aria-labelledby="heading11" data-parent="#accordionEx2" itemScope itemType="http://schema.org/HomeAndConstructionBusiness">
             <div className="card-body white-text">
               <h3>building business</h3>
               <h4>opportunity</h4>
@@ -91,7 +91,7 @@ const Accordion = () => {
             </a>
         </div>
 
-        <div id="collapse12" className="collapse" role="tabpanel" aria-labelledby="heading12" data-parent="#accordionEx2">
+        <div id="collapse12" className="collapse" role="tabpanel" aria-labelledby="heading12" data-parent="#accordionEx2" itemScope itemType="http://schema.org/LegalService">
             <div className="card-body white-text">
               <h3>lucky ticket</h3>
               <h4>opportunity</h4>
@@ -115,7 +115,7 @@ const Accordion = () => {
             </a>
         </div>
 
-        <div id="collapse13" className="collapse" role="tabpanel" aria-labelledby="heading13" data-parent="#accordionEx2">
+        <div id="collapse13" className="collapse" role="tabpanel" aria-labelledby="heading13" data-parent="#accordionEx2" itemScope itemType="http://schema.org/EducationalOrganization">
             <div className="card-body white-text">
               <h3>class above the rest</h3>
               <h4>opportunity</h4>
@@ -139,7 +139,7 @@ const Accordion = () => {
             </a>
         </div>
 
-        <div id="collapse14" className="collapse" role="tabpanel" aria-labelledby="heading14" data-parent="#accordionEx2">
+        <div id="collapse14" className="collapse" role="tabpanel" aria-labelledby="heading14" data-parent="#accordionEx2" itemScope itemType="http://schema.org/FinancialService">
             <div className="card-body white-text">
                 <h3>coming soon</h3>
             </div>
@@ -155,7 +155,7 @@ const Accordion = () => {
             </a>
         </div>
 
-        <div id="collapse15" className="collapse" role="tabpanel" aria-labelledby="heading15" data-parent="#accordionEx2">
+        <div id="collapse15" className="collapse" role="tabpanel" aria-labelledby="heading15" data-parent="#accordionEx2" itemScope itemType="http://schema.org/MedicalOrganization">
             <div className="card-body white-text">
                 <h3>coming soon</h3>
             </div>
@@ -171,7 +171,7 @@ const Accordion = () => {
             </a>
         </div>
 
-        <div id="collapse16" className="collapse" role="tabpanel" aria-labelledby="heading16" data-parent="#accordionEx2">
+        <div id="collapse16" className="collapse" role="tabpanel" aria-labelledby="heading16" data-parent="#accordionEx2" itemScope itemType="http://schema.org/LodgingBusiness">
             <div className="card-body white-text">
                 <h3>coming soon</h3>
             </div>

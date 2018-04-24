@@ -2,7 +2,7 @@ import stylesheet from 'styles/index.scss'
 
 const Nav = () => {
   return (
-    <div>
+    <div itemScope itemType="http://schema.org/WPHeader">
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
       <nav className="navbar fixed-top navbar-dark">
         <a className="navbar-brand" href="/">amagazi</a>
@@ -12,17 +12,17 @@ const Nav = () => {
 
         <div className="collapse navbar-collapse justify-content-stretch" id="navbar">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+            <li className="nav-item" itemScope itemType="http://schema.org/SiteNavigationElement">
               <a className="nav-link" href="/services">services</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" itemScope itemType="http://schema.org/SiteNavigationElement">
               <a className="nav-link" href="/about">about</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" itemScope itemType="http://schema.org/SiteNavigationElement">
               <a className="nav-link" href="/work">work</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://medium.com/@amagazi" rel="noopener noreferrer" target="_blank">the scoop</a>
+            <li className="nav-item" itemScope itemType="http://schema.org/SiteNavigationElement">
+              <a className="nav-link" href="https://medium.com/@amagazi" rel="noopener noreferrer" target="_blank" itemScope itemType="http://schema.org/Blog">the scoop</a>
             </li>
           </ul>
         </div>

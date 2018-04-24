@@ -9,19 +9,19 @@ import Footer from '../components/footer';
 
 const Privacy = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" itemScope itemType="http://schema.org/WebPage">
       <Head>
         <title>privacy | amagazi</title>
         <meta name="description"
               content="A full-service digital agency experienced in branding, business strategy,
               and crafting share-worthy consumer experiences. We don't walk the line, we create it."/>
-        <meta name="keywords" content="creative agency, business strategy, advertising"/>
+        <meta name="keywords" content="creative agency, business strategy, digital advertising"/>
         <meta name="author" content="amagazi"/>
         <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
       </Head>
       <Nav/>
       <div className="row top-row">
-        <div className="showdeck ml-md-4 col-lg-7 order-lg-7">
+        <div className="showdeck ml-md-4 col-lg-7 order-lg-7" itemScope>
           <h1 className="pb-4 pt-4">privacy statement</h1>
           <h3>Individual User Information that You Submit</h3>
           <p>amagazi may store personally identifiable information that you submitted
@@ -104,7 +104,7 @@ const Privacy = () => {
           </p>
         </div>
 
-        <div className="approach col-lg-4 order-lg-4 ml-md-4 pl-md-2">
+        <div className="approach col-lg-4 order-lg-4 ml-md-4 pl-md-2" itemScope>
           <h2 className="subtitle">amagazi respects your privacy.</h2>
           <p>
             We have implemented a privacy policy that outlines the use

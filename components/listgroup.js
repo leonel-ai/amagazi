@@ -2,7 +2,7 @@ import stylesheet from 'styles/index.scss';
 
 const ListGroup = () => {
   return (
-    <div className="case-group">
+    <div className="case-group" itemScope itemType="http://schema.org/ItemList">
           <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
     <div class="col-md-4">
@@ -18,7 +18,7 @@ const ListGroup = () => {
       </div>
       <div class="col-md-8 case-studies">
         <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="list-cpg" role="tabpanel" aria-labelledby="list-cpg-list">
+          <div class="tab-pane fade show active" id="list-cpg" role="tabpanel" aria-labelledby="list-cpg-list" itemScope itemType="http://schema.org/Organization">
             <h3>snacktime bonding</h3>
             <h4>opportunity</h4>
               <p>Gain market share in the growing snack category and create an ownable
@@ -57,7 +57,7 @@ const ListGroup = () => {
                 at major retail level, which increased shoppers’ selection for restaurant-quality dinnertime.</p>
           </div>
 
-          <div class="tab-pane fade" id="list-con" role="tabpanel" aria-labelledby="list-con-list">
+          <div class="tab-pane fade" id="list-con" role="tabpanel" aria-labelledby="list-con-list" itemScope itemType="http://schema.org/HomeAndConstructionBusiness">
               <h3>building business</h3>
               <h4>opportunity</h4>
                 <p>Establish a high level of client trust and credibility
@@ -71,7 +71,7 @@ const ListGroup = () => {
                 contracts and RFP wins for the company.</p>
           </div>
 
-          <div class="tab-pane fade" id="list-law" role="tabpanel" aria-labelledby="list-law-list">
+          <div class="tab-pane fade" id="list-law" role="tabpanel" aria-labelledby="list-law-list" itemScope itemType="http://schema.org/LegalService">
               <h3>lucky ticket</h3>
               <h4>opportunity</h4>
                 <p>Design a new logo and create a brand strategy to acquire and increase new-client traffic.</p>
@@ -83,7 +83,7 @@ const ListGroup = () => {
                   accept—a tainted driving record and an increased insurance rate.</i></p>
           </div>
 
-          <div class="tab-pane fade" id="list-edu" role="tabpanel" aria-labelledby="list-edu-list">
+          <div class="tab-pane fade" id="list-edu" role="tabpanel" aria-labelledby="list-edu-list" itemScope itemType="http://schema.org/EducationalOrganization">
               <h3>class above the rest</h3>
               <h4>opportunity</h4>
                 <p>Increase brand awareness, student enrollment, and donor contribution.</p>
@@ -95,15 +95,15 @@ const ListGroup = () => {
                 to the private high school of their choice.</p>
           </div>
 
-          <div class="tab-pane fade" id="list-fin" role="tabpanel" aria-labelledby="list-fin-list">
+          <div class="tab-pane fade" id="list-fin" role="tabpanel" aria-labelledby="list-fin-list" itemScope itemType="http://schema.org/FinancialService">
             <h3>coming soon</h3>
           </div>
 
-          <div class="tab-pane fade" id="list-health" role="tabpanel" aria-labelledby="list-health-list">
+          <div class="tab-pane fade" id="list-health" role="tabpanel" aria-labelledby="list-health-list" itemScope itemType="http://schema.org/MedicalOrganization">
             <h3>coming soon</h3>
           </div>
 
-          <div class="tab-pane fade" id="list-hosp" role="tabpanel" aria-labelledby="list-hosp-list">
+          <div class="tab-pane fade" id="list-hosp" role="tabpanel" aria-labelledby="list-hosp-list" itemScope itemType="http://schema.org/LodgingBusiness">
             <h3>coming soon</h3>
           </div>
         </div>
