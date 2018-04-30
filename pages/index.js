@@ -14,7 +14,7 @@ const Home = () => {
       <Head>
         <title>amagazi</title>
         <meta name="description"
-              content="A full-service digital agency experienced in branding, business strategy,
+              content="A full-service creative company experienced in branding, business strategy,
               and crafting share-worthy consumer experiences. We don't walk the line, we create it."/>
         <meta name="keywords" content="creative agency, business strategy, digital advertising"/>
         <meta name="author" content="amagazi"/>

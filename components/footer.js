@@ -10,7 +10,7 @@ const Footer = () => {
 
             <div className="col-md-6" itemScope itemType="http://schema.org/Brand">
                 <h4><a id="cta" href="/">amagazi</a></h4>
-                <p>A full-service digital agency experienced in branding, business strategy,
+                <p>A full-service creative company experienced in branding, business strategy,
               and crafting share-worthy consumer experiences.<br/><br/>We don't walk the line, we create it.</p>
             </div>
 
@@ -24,10 +24,10 @@ const Footer = () => {
                       houston, tx 77024
                     </li>
                     <li>
-                      <a href="tel:832-304-5500" itemScope itemType="http://schema.org/ContactPoint">832.304.5500</a>
+                      <a href="tel:832-304-5500">832.304.5500</a>
                     </li>
                     <li>
-                      <a href="mailto:hello@amagazi.com?subject=Hello, amagazi!" itemScope itemType="http://schema.org/ContactPoint">hello@amagazi.com</a>
+                      <a href="mailto:hello@amagazi.com?subject=Hello, amagazi!">hello@amagazi.com</a>
                     </li>
                 </ul>
             </div>
@@ -36,13 +36,13 @@ const Footer = () => {
                 <h4>follow us</h4>
                 <ul className="list-unstyled">
                     <li>
-                        <a href="https://www.linkedin.com/company/amagazi/" rel="noopener noreferrer" target="_blank" itemScope itemType="http://schema.org/ContactPoint">linkedin</a>
+                        <a href="https://www.linkedin.com/company/amagazi/" rel="noopener noreferrer" target="_blank">linkedin</a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/amagaziagency" rel="noopener noreferrer" target="_blank" itemScope itemType="http://schema.org/ContactPoint">twitter</a>
+                        <a href="https://twitter.com/amagaziagency" rel="noopener noreferrer" target="_blank">twitter</a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/amagazi" rel="noopener noreferrer" target="_blank" itemScope itemType="http://schema.org/ContactPoint">facebook</a>
+                        <a href="https://www.facebook.com/amagazi" rel="noopener noreferrer" target="_blank">facebook</a>
                     </li>
                     <li>
                         <a href="https://www.medium.com/@amagazi" rel="noopener noreferrer" target="_blank" itemScope itemType="http://schema.org/Blog">the scoop</a>
