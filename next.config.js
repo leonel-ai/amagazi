@@ -39,7 +39,7 @@ module.exports = {
       '/services': { page: '/services' },
       '/about': { page: '/about' },
       '/work': { page: '/work' },
-      '/privacy': { page: '/privacy' },
+      '/privacy': { page: '/privacy' }
     }
   }
 }
