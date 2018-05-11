@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -338,14 +338,16 @@ var Footer = function Footer() {
 /* 6 */,
 /* 7 */,
 /* 8 */,
-/* 9 */
+/* 9 */,
+/* 10 */,
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(10);
+module.exports = __webpack_require__(12);
 
 
 /***/ }),
-/* 10 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -984,7 +986,7 @@ var about_About = function About() {
       external__react__default.a.createElement(
         'div',
         { className: 'showdeck col-lg-8 order-lg-8', itemScope: true, itemType: 'http://schema.org/ImageObject' },
-        external__react__default.a.createElement('img', { className: 'img-fluid float-right', src: '/static/lobby.jpg', alt: 'about-desktop' })
+        external__react__default.a.createElement('img', { className: 'img-fluid float-right', src: '/static/lobby.jpg', alt: 'about us' })
       ),
       external__react__default.a.createElement(
         'div',

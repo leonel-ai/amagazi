@@ -22,7 +22,7 @@ const About = () => {
 
       <div className="row top-row">
         <div className="showdeck col-lg-8 order-lg-8" itemScope itemType="http://schema.org/ImageObject">
-          <img className="img-fluid float-right" src='/static/lobby.jpg' alt="about-desktop" />
+          <img className="img-fluid float-right" src='/static/lobby.jpg' alt="about us" />
         </div>
         <div className="approach col-lg-4 order-lg-4" itemScope>
           <h1 className="title">who we are</h1>
